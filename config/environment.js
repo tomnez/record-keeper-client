@@ -5,7 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'record-keeper-client',
     environment: environment,
     baseURL: '/',
-    locationType: 'auto',
+    locationType: 'hash',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -17,6 +17,22 @@ module.exports = function(environment) {
       // Here you can pass flags/options to your application instance
       // when it is created
     }
+  };
+
+  ENV.contentSecurityPolicy = {
+    'default-src': "'none'",
+    'script-src': "'self'",
+    'frame-src': "'self'",
+    'font-src': "'self'",
+    'connect-src': "*",
+    'img-src': "'self'",
+    'style-src': "'self' 'unsafe-inline'",
+    'media-src': "'self'"
+  };
+
+  ENV['ember-simple-auth'] = {
+    routeAfterAuthentication: 'dashboard',
+    routeIfAlreadyAuthenticated: 'dashboard'
   };
 
   if (environment === 'development') {

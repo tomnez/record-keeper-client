@@ -5,6 +5,7 @@ module.exports = function(environment) {
     modulePrefix: 'record-keeper-client',
     environment: environment,
     baseURL: '/',
+    apiBase: 'http://localhost:3000',
     locationType: 'hash',
     EmberENV: {
       FEATURES: {

@@ -1,0 +1,76 @@
+@import "colors";
+
+//==============================================
+//   Navbar
+//==============================================
+.navbar {
+  background: $white;
+  border-bottom: 1px solid $blue-grey-100;
+
+  .navbar-link {
+    color: $blue-grey-400;
+    border-bottom: 3px solid transparent;
+    border-top: 3px solid transparent;
+
+    &:hover {
+      background: $grey-100;
+    }
+    &:focus {
+      background: none;
+
+      &:hover {
+        background: $grey-100;
+      }
+    }
+    &.active {
+      border-bottom-color: $blue-grey-100;
+    }
+  }
+  .navbar-brand {
+    color: $blue-grey-600;
+    margin: 3px 0;
+  }
+}
+
+//==============================================
+//   Links
+//==============================================
+a {
+  color: $light-blue-500;
+
+  &:hover {
+    color: $light-blue-600;
+  }
+}
+
+//==============================================
+//   Panels
+//==============================================
+.panel {
+  border-color: $blue-grey-100;
+}
+
+//==============================================
+//   Forms
+//==============================================
+.form-control {
+  height: 45px;
+  font-size: 18px;
+  border-radius: 2px;
+}
+
+//==============================================
+//   Buttons
+//==============================================
+.btn {
+  border-radius: 2px;
+}
+.btn-primary {
+  background-color: $light-blue-700;
+  border-color: transparent;
+
+  &:hover {
+    background-color: $light-blue-800;
+    border-color: transparent;
+  }
+}

@@ -3,6 +3,7 @@ import Ember from 'ember';
 const { service } = Ember.inject;
 
 export default Ember.Component.extend({
+  classNames: ['login-form-component', 'vertical-center', 'absolute-cover'],
   session: service('session'),
 
   actions: {

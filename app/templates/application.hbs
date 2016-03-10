@@ -11,7 +11,9 @@
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li><a href="#" class="navbar-link">My Students</a></li>
+        {{#if session.isAuthenticated}}
+          <li><a href="#" class="navbar-link">My Students</a></li>
+        {{/if}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#" class="navbar-link">Admin</a></li>

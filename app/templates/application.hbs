@@ -16,7 +16,9 @@
         {{/if}}
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="navbar-link">Admin</a></li>
+        {{#if session.session.content.authenticated.admin}}
+          <li><a href="#" class="navbar-link">Admin</a></li>
+        {{/if}}
         {{#if session.isAuthenticated}}
           <li><a href="#" class="navbar-link" {{action 'logout'}}>Logout</a></li>
         {{else}}

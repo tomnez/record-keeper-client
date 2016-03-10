@@ -3,6 +3,13 @@
 //==============================================
 .app-outlet {
   margin-top: 56px;
+
+  > .alert {
+    text-align: center;
+    position: relative;
+    margin-bottom: 0;
+    z-index: 1;
+  }
 }
 
 body {

@@ -19,7 +19,7 @@ export default Devise.extend({
       return this.makeRequest(data).then((response) => {
 
         this.get('store').push(response.record);
-        this.setLoggedInUser(response.record.id);
+        this.setLoggedInUser(response.record.data.id);
 
         run(null, resolve, response);
       }, (xhr) => {

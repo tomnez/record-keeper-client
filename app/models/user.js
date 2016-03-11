@@ -2,5 +2,7 @@ import DS from 'ember-data';
 
 export default DS.Model.extend({
   email: DS.attr('string'),
-  admin: DS.attr('boolean', { defaultValue: false })
+  admin: DS.attr('boolean', { defaultValue: false }),
+
+  students: DS.hasMany('student')
 });

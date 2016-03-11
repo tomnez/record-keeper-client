@@ -19,6 +19,7 @@ export default Devise.extend({
       return this.makeRequest(data).then((response) => {
 
         this.get('store').push(response.record);
+        this.setLoggedInUser(response.record.id);
 
         run(null, resolve, response);
       }, (xhr) => {
@@ -34,10 +35,21 @@ export default Devise.extend({
 
     if (!isEmpty(tokenAttribute) && !isEmpty(identificationAttribute)) {
       this.get('store').push(data.record);
+      this.setLoggedInUser(data.record.data.id);
 
       return Promise.resolve(data);
     } else {
       return Promise.reject();
     }
   },
+
+  invalidate() {
+    this.get("currentUser").set("user", null);
+    return Promise.resolve();
+  },
+
+  setLoggedInUser(id) {
+    const user = this.get('store').peekRecord('user', id);
+    this.get("currentUser").set("user", user);
+  }
 });

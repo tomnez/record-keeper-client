@@ -11,5 +11,5 @@ export default DS.Model.extend(HasManyQuery.ModelMixin, {
   secondary_disability: DS.attr('string'),
   goals: DS.attr('string'),
 
-  users: DS.hasMany('user')
+  user: HasManyQuery.belongsToSticky('user', { async: true }),
 });

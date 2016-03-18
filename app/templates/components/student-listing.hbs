@@ -1,0 +1,9 @@
+{{#if model.students}}
+<ul class="students-listing list-group">
+  {{#each model.students as |student|}}
+    <li class="list-group-item">{{student.first_name}} {{student.last_name}}</li>
+  {{/each}}
+</ul>
+{{else}}
+  <p>You have not added any students yet.</p>
+{{/if}}

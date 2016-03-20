@@ -44,7 +44,7 @@ export default DS.Model.extend({
       page = meta ? meta.page + 1 : 1;
     }
 
-    url = `/users/${this.get('id')}/students?page=${page}&per_page=${perPage}`
+    url = `/users/${this.get('id')}/students?page=${page}&per_page=${perPage}`;
 
     return new Promise((resolve) => {
       raw({
@@ -60,9 +60,10 @@ export default DS.Model.extend({
         for (let i = 0; i <= result.data.length - 1; i++) {
           let record = this.store.peekRecord(type, result.data[i].id);
           typeAttribute.get('content').addObject(record);
-        };
+        }
 
         typeAttribute.set('meta', result.meta);
+        resolve();
       });
     });
   }

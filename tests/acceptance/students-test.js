@@ -16,17 +16,11 @@ moduleForAcceptance('Acceptance | students', {
 });
 
 test('visiting /students', function(assert) {
-  visit('/login');
+  userLogin('tom@tom.com', 'password');
+
+  visit('/students');
 
   andThen(function() {
-    fillIn('.login-email', 'tom@tom.com');
-    fillIn('.login-password', 'password');
-    triggerEvent('.login-submit', 'click');
-
-    visit('/students');
-
-    andThen(function() {
-      assert.equal(currentURL(), '/students');
-    });
+    assert.equal(currentURL(), '/students');
   });
 });

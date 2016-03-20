@@ -17,11 +17,11 @@ export default Devise.extend({
       data[resourceName][identificationAttributeName] = identification;
 
       return this.makeRequest(data).then((response) => {
-
-        this.get('store').push(response.record);
-        this.setLoggedInUser(response.record.data.id);
-
-        run(null, resolve, response);
+        run(this, () => {
+          // http://bit.ly/1SbKaN2
+          this.get('store').push(response.record);
+          this.setLoggedInUser(response.record.data.id);
+        }, response);
       }, (xhr) => {
         run(null, reject, xhr.responseJSON || xhr.responseText);
       });

@@ -4,6 +4,35 @@ export default function() {
 
 export function testConfig() {
   // jscs:disable
+  this.post('/users/sign_in', function() {
+    return {
+      "token":"qwertyuiopasdfghjklz",
+      "email":"tom@tom.com",
+      "admin":true,
+      "record":{
+        "data":{
+          "id":"6fac94b9-7829-4aa7-bcb8-a51becfec25b",
+          "type":"user",
+          "attributes":{
+            "email":"tom@tom.com",
+            "admin":true
+          },
+          "links":{
+            "self":"/users/6fac94b9-7829-4aa7-bcb8-a51becfec25b"
+          },
+          "relationships":{
+            "students":{
+              "links":{
+                "self":"/users/6fac94b9-7829-4aa7-bcb8-a51becfec25b/relationships/students",
+                "related":"/users/6fac94b9-7829-4aa7-bcb8-a51becfec25b/students"
+              }
+            }
+          }
+        }
+      }
+    };
+  });
+
   this.get('/students', function() {
     return {
       "data":[

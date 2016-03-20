@@ -1,6 +1,6 @@
-{{#if model.students}}
+{{#if model.students.content}}
 <ul class="students-listing list-group">
-  {{#each model.students as |student|}}
+  {{#each model.students.content as |student|}}
     <li class="list-group-item">{{student.first_name}} {{student.last_name}}</li>
   {{/each}}
 </ul>

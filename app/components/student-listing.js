@@ -27,7 +27,7 @@ export default Ember.Component.extend(Scrolling, {
   },
 
   allStudentsLoaded() {
-    let meta = this.get('model.students.content.meta');
+    let meta = this.get('model.students.meta');
     return meta.page === meta.total_pages;
   },
 

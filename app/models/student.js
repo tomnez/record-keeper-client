@@ -1,7 +1,6 @@
 import DS from 'ember-data';
-import HasManyQuery from 'ember-data-has-many-query';
 
-export default DS.Model.extend(HasManyQuery.ModelMixin, {
+export default DS.Model.extend({
   first_name: DS.attr('string'),
   last_name: DS.attr('string'),
   birthdate: DS.attr('date'),
@@ -9,7 +8,5 @@ export default DS.Model.extend(HasManyQuery.ModelMixin, {
   tx_frequency: DS.attr('string'),
   primary_disability: DS.attr('string'),
   secondary_disability: DS.attr('string'),
-  goals: DS.attr('string'),
-
-  user: HasManyQuery.belongsToSticky('user', { async: true }),
+  goals: DS.attr('string')
 });

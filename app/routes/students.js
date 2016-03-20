@@ -7,6 +7,6 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
   },
 
   afterModel(model) {
-    model.query('students', { page: 1, per_page: model.get('studentsPerPage') });
+    model.pageNext('student', { page: 1 });
   }
 });

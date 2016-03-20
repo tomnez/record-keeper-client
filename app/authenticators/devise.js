@@ -11,8 +11,8 @@ export default Devise.extend({
 
   authenticate(identification, password) {
     return new Promise((resolve, reject) => {
-      const { resourceName, identificationAttributeName } = this.getProperties('resourceName', 'identificationAttributeName');
-      const data         = {};
+      let { resourceName, identificationAttributeName } = this.getProperties('resourceName', 'identificationAttributeName');
+      let data         = {};
       data[resourceName] = { password };
       data[resourceName][identificationAttributeName] = identification;
 
@@ -29,9 +29,9 @@ export default Devise.extend({
   },
 
   restore(data) {
-    const { tokenAttributeName, identificationAttributeName } = this.getProperties('tokenAttributeName', 'identificationAttributeName');
-    const tokenAttribute = get(data, tokenAttributeName);
-    const identificationAttribute = get(data, identificationAttributeName);
+    let { tokenAttributeName, identificationAttributeName } = this.getProperties('tokenAttributeName', 'identificationAttributeName');
+    let tokenAttribute = get(data, tokenAttributeName);
+    let identificationAttribute = get(data, identificationAttributeName);
 
     if (!isEmpty(tokenAttribute) && !isEmpty(identificationAttribute)) {
       this.get('store').push(data.record);
@@ -44,12 +44,12 @@ export default Devise.extend({
   },
 
   invalidate() {
-    this.get("currentUser").set("user", null);
+    this.get('currentUser').set('user', null);
     return Promise.resolve();
   },
 
   setLoggedInUser(id) {
-    const user = this.get('store').peekRecord('user', id);
-    this.get("currentUser").set("user", user);
+    let user = this.get('store').peekRecord('user', id);
+    this.get('currentUser').set('user', user);
   }
 });

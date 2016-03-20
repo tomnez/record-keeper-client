@@ -8,7 +8,7 @@ export default Ember.Component.extend({
   flashMessages: service(),
 
   actions: {
-    authenticate: function() {
+    authenticate() {
       let { identification, password } = this.getProperties('identification', 'password');
       return this.get('session').authenticate('authenticator:devise', identification, password).catch((reason) => {
         this.get('flashMessages').danger(reason.error, { timeout: 6000 });

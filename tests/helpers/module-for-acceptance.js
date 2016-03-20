@@ -2,6 +2,7 @@ import { module } from 'qunit';
 import startApp from '../helpers/start-app';
 import destroyApp from '../helpers/destroy-app';
 
+// jscs:disable requireSpread
 export default function(name, options = {}) {
   module(name, {
     beforeEach() {
@@ -21,3 +22,4 @@ export default function(name, options = {}) {
     }
   });
 }
+// jscs:enable requireSpread

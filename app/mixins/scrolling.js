@@ -8,10 +8,10 @@ export default Ember.Mixin.create({
       Ember.run.throttle(_this, _this.scrolled, 100);
     };
 
-    $(selector).bind('scroll', onScroll);
+    Ember.$(selector).bind('scroll', onScroll);
   },
 
   unbindScrolling(selector) {
-    $(selector).unbind('scroll');
+    Ember.$(selector).unbind('scroll');
   }
 });

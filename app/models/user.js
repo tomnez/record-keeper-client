@@ -2,7 +2,7 @@ import DS from 'ember-data';
 import Ember from 'ember';
 import raw from 'ic-ajax';
 
-const { RSVP: { Promise }, inject: { service }} = Ember;
+const { RSVP: { Promise }, inject: { service } } = Ember;
 
 export default DS.Model.extend({
   email: DS.attr('string'),
@@ -13,21 +13,23 @@ export default DS.Model.extend({
   // favoring ember obj vs. hasMany in
   // order to easily paginate without
   // gross hacks.
-  students: Ember.computed(function () {
+  students: Ember.computed(function() {
     return Ember.Object.extend({
       content: [],
       meta: null
     }).create();
   }),
 
-  authHeaders: Ember.computed('session', function () {
+  authHeaders: Ember.computed('session', function() {
     let authUser = this.get('session.session.content.authenticated');
 
     return `Token token=${authUser.token}, email=${authUser.email}`;
   }),
 
   studentsPerPage: DS.attr('number', {
-    defaultValue() { return 25; }
+    defaultValue() {
+      return 25;
+    }
   }),
 
   pageNext(type, params) {
@@ -35,6 +37,7 @@ export default DS.Model.extend({
     let meta = this.get(`${pluralizedHasManyType}.meta`);
     let perPage = this.get(`${pluralizedHasManyType}PerPage`);
     let typeAttribute = this.get(pluralizedHasManyType);
+    let headers = { Authorization: this.get('authHeaders') };
     let page;
     let url;
 
@@ -49,10 +52,8 @@ export default DS.Model.extend({
     return new Promise((resolve) => {
       raw({
         type: 'GET',
-        url: url,
-        headers: {
-          Authorization: this.get('authHeaders')
-        }
+        url,
+        headers
       }).then((result) => {
         this.store.pushPayload(result);
 

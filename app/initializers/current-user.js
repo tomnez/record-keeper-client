@@ -1,7 +1,7 @@
 import Ember from 'ember';
 
 export function initialize(application) {
-  const CurrentUser = Ember.Object.create({ user: null });
+  let CurrentUser = Ember.Object.create({ user: null });
 
   application.register('service:current-user', CurrentUser, { instantiate: false, singleton: true });
 

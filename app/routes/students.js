@@ -7,6 +7,8 @@ export default Ember.Route.extend(AuthenticatedRouteMixin, {
   },
 
   afterModel(model) {
-    if (!model.get('students.content.length')) model.pageNext('student', { page: 1 });
+    if (!model.get('students.content.length')) {
+      model.pageNext('student', { page: 1 });
+    }
   }
 });

@@ -28,7 +28,9 @@ export default Ember.Component.extend(Scrolling, {
 
   allStudentsLoaded() {
     let meta = this.get('model.students.meta');
+    // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
     return meta.page === meta.total_pages;
+    // jscs:enable requireCamelCaseOrUpperCaseIdentifiers
   },
 
   scrollBufferReached() {

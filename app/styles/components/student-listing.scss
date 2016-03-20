@@ -1,0 +1,13 @@
+//==============================================
+//   Layout
+//==============================================
+.student-listing {
+  .student-item {
+    padding: 20px;
+    font-size: 18px;
+
+    &:hover {
+      background: $grey-50;
+    }
+  }
+}

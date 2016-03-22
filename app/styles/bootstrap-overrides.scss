@@ -64,6 +64,15 @@ a {
 //==============================================
 .btn {
   border-radius: 2px;
+
+  &:focus,
+  &:active:focus,
+  &.active:focus,
+  &.focus,
+  &:active.focus,
+  &.active.focus {
+    outline: none;
+  }
 }
 .btn-primary {
   background-color: $light-blue-700;

@@ -11,3 +11,23 @@
     }
   }
 }
+
+//==============================================
+//   Buttons Group (right)
+//==============================================
+.student-item-buttons-group {
+  margin-top: -4px;
+
+  .btn {
+    margin-left: 10px;
+
+    &:hover {
+      background: $light-green;
+      border: 1px solid $dark-green;
+      color: $white;
+    }
+  }
+  .fa {
+    margin-right: 5px;
+  }
+}

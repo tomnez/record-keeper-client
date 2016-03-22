@@ -36,10 +36,9 @@ export default Devise.extend({
     let identificationAttribute = get(data, identificationAttributeName);
 
     if (!isEmpty(tokenAttribute) && !isEmpty(identificationAttribute)) {
-      this.get('store').push(data.record);
-      this.setLoggedInUser(data.record.data.id);
-
-      return Promise.resolve(data);
+      return this.pushAndSetUser(data).then(() => {
+        return Promise.resolve(data);
+      });
     } else {
       return Promise.reject();
     }

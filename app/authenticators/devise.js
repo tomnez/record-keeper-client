@@ -12,16 +12,18 @@ export default Devise.extend({
   authenticate(identification, password) {
     return new Promise((resolve, reject) => {
       let { resourceName, identificationAttributeName } = this.getProperties('resourceName', 'identificationAttributeName');
-      let data         = {};
+      let data = {};
+
       data[resourceName] = { password };
       data[resourceName][identificationAttributeName] = identification;
 
       return this.makeRequest(data).then((response) => {
-        run(this, () => {
-          // http://bit.ly/1SbKaN2
-          this.get('store').push(response.record);
-          this.setLoggedInUser(response.record.data.id);
-        }, response);
+        // http://bit.ly/1T4DGC1 derrr
+        run(()=> {
+          this.pushAndSetUser(response).then(() => {
+            run(null, resolve, response);
+          });
+        });
       }, (xhr) => {
         run(null, reject, xhr.responseJSON || xhr.responseText);
       });
@@ -48,8 +50,11 @@ export default Devise.extend({
     return Promise.resolve();
   },
 
-  setLoggedInUser(id) {
-    let user = this.get('store').peekRecord('user', id);
-    this.get('currentUser').set('user', user);
+  pushAndSetUser(response) {
+    let user = this.get('store').push(response.record);
+
+    return new Promise((resolve) => {
+      resolve(this.get('currentUser').set('user', user));
+    });
   }
 });

@@ -33,7 +33,7 @@ export function testConfig() {
     };
   });
 
-  this.get('/students', function() {
+  this.get('/users/6fac94b9-7829-4aa7-bcb8-a51becfec25b/students', function() {
     return {
       "data":[
         {

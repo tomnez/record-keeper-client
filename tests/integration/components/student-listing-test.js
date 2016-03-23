@@ -26,9 +26,9 @@ const model = Ember.Object.create({ email: 'tom@tom.com', students });
 test('it renders a list of students', function(assert) {
   this.set('model', model);
 
-  this.render(hbs`{{student-listing model=model}}`);
+  this.render(hbs`{{student-listing user=model}}`);
 
-  assert.equal(this.$('.student-item').first().text().trim(), 'Jamie Thomas', 'it lists students names');
+  assert.equal(this.$('.student-name').first().text().trim(), 'Jamie Thomas', 'it lists students names');
   assert.equal(this.$('.student-item').length, 3, 'it lists at least page 1 of students');
 });
 

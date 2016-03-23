@@ -2,7 +2,7 @@
 <ul class="student-listing list-group">
   {{#each user.students.content as |student|}}
     <li class="list-group-item student-item">
-      {{student.firstName}} {{student.lastName}}
+      <span class="student-name">{{student.firstName}} {{student.lastName}}</span>
 
       <div class="pull-right student-item-buttons-group">
         <button type="button" class="btn btn-default" {{action "viewStudentRecords" student.id}}>

@@ -6,6 +6,7 @@
 .navbar {
   background: $white;
   border-bottom: 1px solid $blue-grey-100;
+  z-index: 1;
 
   .navbar-link {
     color: $blue-grey-400;

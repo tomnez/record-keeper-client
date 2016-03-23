@@ -1,11 +1,11 @@
-{{#if model.students.content}}
+{{#if user.students.content}}
 <ul class="student-listing list-group">
-  {{#each model.students.content as |student|}}
+  {{#each user.students.content as |student|}}
     <li class="list-group-item student-item">
       {{student.firstName}} {{student.lastName}}
 
       <div class="pull-right student-item-buttons-group">
-        <button type="button" class="btn btn-default"><i class="fa fa-file-text-o"></i> View Records</button>
+        <button type="button" class="btn btn-default" {{action "viewStudentRecords"}}><i class="fa fa-file-text-o"></i> View Records</button>
         <button type="button" class="btn btn-default"><i class="fa fa-plus"></i> New Record</button>
       </div>
     </li>

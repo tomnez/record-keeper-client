@@ -18,7 +18,7 @@ export default Ember.Component.extend(Scrolling, {
     if (!this.allStudentsLoaded() && this.scrollBufferReached()) {
       this.unbindScrolling(window);
 
-      this.get('model').pageNext('student').then(() => {
+      this.get('user').pageNext('student').then(() => {
         if (!this.allStudentsLoaded()) {
           this.bindScrolling(window);
         }
@@ -27,7 +27,7 @@ export default Ember.Component.extend(Scrolling, {
   },
 
   allStudentsLoaded() {
-    let meta = this.get('model.students.meta');
+    let meta = this.get('user.students.meta');
     // jscs:disable requireCamelCaseOrUpperCaseIdentifiers
     return meta.page === meta.total_pages;
     // jscs:enable requireCamelCaseOrUpperCaseIdentifiers
@@ -36,5 +36,11 @@ export default Ember.Component.extend(Scrolling, {
   scrollBufferReached() {
     let win = Ember.$(window);
     return (win.scrollTop() + win.height() > Ember.$(document).height() - this.get('scrollBuffer'));
+  },
+
+  actions: {
+    viewStudentRecords(studentId) {
+      this.set('studentRecords', [{ title: 'wee' }]);
+    }
   }
 });

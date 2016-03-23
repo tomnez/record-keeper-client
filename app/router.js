@@ -8,7 +8,9 @@ const Router = Ember.Router.extend({
 Router.map(function() {
   this.route('login');
   this.route('dashboard');
-  this.route('students');
+  this.route('students', function() {
+    this.modal('student-records', { withParams: 'studentRecords' });
+  });
 });
 
 export default Router;

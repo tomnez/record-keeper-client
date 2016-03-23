@@ -23,7 +23,8 @@
     "currentURL",
     "currentPath",
     "currentRouteName",
-    "userLogin"
+    "userLogin",
+    "expect"
   ],
   "node": false,
   "browser": false,

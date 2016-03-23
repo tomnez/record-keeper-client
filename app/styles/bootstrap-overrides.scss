@@ -6,6 +6,7 @@
 .navbar {
   background: $white;
   border-bottom: 1px solid $blue-grey-100;
+  z-index: 1;
 
   .navbar-link {
     color: $blue-grey-400;
@@ -64,6 +65,15 @@ a {
 //==============================================
 .btn {
   border-radius: 2px;
+
+  &:focus,
+  &:active:focus,
+  &.active:focus,
+  &.focus,
+  &:active.focus,
+  &.active.focus {
+    outline: none;
+  }
 }
 .btn-primary {
   background-color: $light-blue-700;

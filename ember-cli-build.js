@@ -23,6 +23,9 @@ module.exports = function(defaults) {
         'app/styles'
       ]
     },
+    emberCliFontAwesome: {
+      useScss: true
+    },
     dotEnv: {
       clientAllowedKeys: ['AWS_KEY', 'AWS_SECRET', 'REDIS_URL'],
       path: {

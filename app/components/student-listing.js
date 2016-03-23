@@ -1,8 +1,12 @@
 import Ember from 'ember';
 import Scrolling from 'record-keeper-client/mixins/scrolling';
 
+const { inject: { service } } = Ember;
+
 export default Ember.Component.extend(Scrolling, {
   scrollBuffer: 200,
+
+  store: service(),
 
   didInsertElement() {
     this._super(...arguments);
@@ -40,7 +44,16 @@ export default Ember.Component.extend(Scrolling, {
 
   actions: {
     viewStudentRecords(studentId) {
-      this.set('studentRecords', [{ title: 'wee' }]);
+      let student = this.get('store').peekRecord('student', studentId);
+      let studentRecords = student.get('records.content');
+
+      if (studentRecords.get('length')) {
+        this.set('studentRecords', studentRecords);
+      } else {
+        student.pageNext('record').then((records) => {
+          this.set('studentRecords', records.get('content'));
+        });
+      }
     }
   }
 });

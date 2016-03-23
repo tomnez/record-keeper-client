@@ -5,8 +5,12 @@
       {{student.firstName}} {{student.lastName}}
 
       <div class="pull-right student-item-buttons-group">
-        <button type="button" class="btn btn-default" {{action "viewStudentRecords"}}><i class="fa fa-file-text-o"></i> View Records</button>
-        <button type="button" class="btn btn-default"><i class="fa fa-plus"></i> New Record</button>
+        <button type="button" class="btn btn-default" {{action "viewStudentRecords" student.id}}>
+          <i class="fa fa-file-text-o"></i> View Records
+        </button>
+        <button type="button" class="btn btn-default">
+          <i class="fa fa-plus"></i> New Record
+        </button>
       </div>
     </li>
   {{/each}}

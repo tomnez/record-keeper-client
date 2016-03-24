@@ -1,0 +1,35 @@
+//==============================================
+//   Heading
+//==============================================
+.student-records-component {
+  .panel-default {
+    > .panel-heading {
+      background: #fafdfe;
+    }
+  }
+  .panel-title {
+    color: $blue-grey-600;
+    font-size: 18px;
+  }
+}
+
+//==============================================
+//   Student Info
+//==============================================
+.student-records-student-info {
+  display: flex;
+  padding: 10px 0;
+  font-size: 16px;
+  color: $grey-800;
+
+  .info-container {
+    flex: 1;
+  }
+  .info-label {
+    font-weight: bold;
+  }
+}
+
+//==============================================
+//   Records List
+//==============================================

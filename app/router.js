@@ -9,7 +9,7 @@ Router.map(function() {
   this.route('login');
   this.route('dashboard');
   this.route('students', function() {
-    this.modal('student-records', { withParams: 'studentRecords' });
+    this.modal('student-records', { withParams: 'studentRecords', otherParams: 'selectedStudent' });
   });
 });
 

@@ -33,3 +33,43 @@
 //==============================================
 //   Records List
 //==============================================
+.student-records-headers {
+  font-weight: bold;
+  border-bottom: 1px solid $grey-200;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.student-records-list-item {
+  font-weight: normal;
+  padding: 10px 15px;
+  color: $grey-700;
+  font-size: 14px;
+  border-top: 1px solid $grey-200;
+
+  &:nth-of-type(odd) {
+    background: #fafdfe;
+  }
+}
+.student-records-component {
+  .record-date {
+    flex: 1
+  }
+  .record-attendance {
+    flex: 1
+  }
+  .record-time {
+    flex: 1
+  }
+  .record-time {
+    flex: 1
+  }
+  .record-homework {
+    flex: 1
+  }
+  .record-activity {
+    flex: 1
+  }
+  .record-final-data {
+    flex: 4;
+  }
+}

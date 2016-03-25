@@ -38,5 +38,11 @@ export default Ember.Component.extend(Scrolling, {
         }
       });
     }
+  },
+
+  actions: {
+    dismiss() {
+      this.sendAction('dismiss');
+    }
   }
 });

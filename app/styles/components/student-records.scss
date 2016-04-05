@@ -56,23 +56,13 @@
   }
 }
 .student-records-component {
-  .record-date {
-    flex: 1
-  }
-  .record-attendance {
-    flex: 1
-  }
-  .record-time {
-    flex: 1
-  }
-  .record-time {
-    flex: 1
-  }
-  .record-homework {
-    flex: 1
-  }
+  .record-date,
+  .record-attendance,
+  .record-time,
+  .record-time,
+  .record-homework,
   .record-activity {
-    flex: 1
+    flex: 1;
   }
   .record-final-data {
     flex: 4;

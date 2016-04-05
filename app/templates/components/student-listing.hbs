@@ -1,14 +1,14 @@
 {{#if user.students.content}}
 <ul class="student-listing list-group">
   {{#each user.students.content as |student|}}
-    <li class="list-group-item student-item">
+    <li class="list-group-item student-item" data-id={{student.id}}>
       <span class="student-name">{{student.firstName}} {{student.lastName}}</span>
 
       <div class="pull-right student-item-buttons-group">
-        <button type="button" class="btn btn-default" {{action "viewStudentRecords" student.id}}>
+        <button type="button" class="btn btn-default btn-view-records" {{action "viewStudentRecords" student.id}}>
           <i class="fa fa-file-text-o"></i> View Records
         </button>
-        <button type="button" class="btn btn-default">
+        <button type="button" class="btn btn-default btn-new-records">
           <i class="fa fa-plus"></i> New Record
         </button>
       </div>

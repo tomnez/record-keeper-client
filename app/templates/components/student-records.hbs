@@ -1,5 +1,69 @@
-<h1>RECORDS HERE</h1>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <i class="fa fa-close pull-right" {{action "dismiss"}}></i>
+          <h3 class="panel-title">{{selectedStudent.firstName}} {{selectedStudent.lastName}}</h3>
+        </div>
+        <div class="panel-body">
+          <div class="student-records-student-info">
+            <div class="info-container">
+              <span class="info-label">Name</span>: {{selectedStudent.firstName}} {{selectedStudent.lastName}}
+            </div>
+            <div class="info-container">
+              <span class="info-label">Birthdate</span>: {{moment-format selectedStudent.birthdate "l"}}
+            </div>
+            <div class="info-container">
+              <span class="info-label">IEP Date</span>: {{moment-format selectedStudent.iepDate "l"}}
+            </div>
+            <div class="info-container">
+              <span class="info-label">TX Frequency</span>: {{selectedStudent.txFrequency}}
+            </div>
+          </div>
 
-{{#each studentRecords as |record|}}
-  <p>{{record.hw}}</p>
-{{/each}}
+          <div class="student-records-student-info">
+            <div class="info-container">
+              <span class="info-label">Primary Disability</span>: {{selectedStudent.primaryDisability}}
+            </div>
+            <div class="info-container">
+              <span class="info-label">Secondary Disability</span>: {{selectedStudent.secondaryDisability}}
+            </div>
+          </div>
+
+          <div class="student-records-student-info">
+            <div class="info-container">
+              <span class="info-label">Goals</span>: {{selectedStudent.goals}}
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div class="student-records-headers flex">
+        <span class="record-date">Date</span>
+        <span class="record-attendance">Attendance</span>
+        <span class="record-time">Time In</span>
+        <span class="record-time">Time Out</span>
+        <span class="record-homework">Homework</span>
+        <span class="record-activity">Activity</span>
+        <span class="record-final-data">Final Data</span>
+      </div>
+      <ul class="student-records-list">
+        {{#each studentRecords as |record|}}
+          <li class="student-records-list-item flex">
+            <span class="record-date">{{moment-format record.date "l"}}</span>
+            <span class="record-attendance">{{record.attendance}}</span>
+            <span class="record-time">{{moment-format record.timeIn "h:mm a"}}</span>
+            <span class="record-time">{{moment-format record.timeOut "h:mm a"}}</span>
+            <span class="record-homework">{{record.hw}}</span>
+            <span class="record-activity">{{record.activity}}</span>
+            <span class="record-final-data">{{record.finalData}}</span>
+          </li>
+        {{/each}}
+      </ul>
+    </div>
+  </div>
+</div>

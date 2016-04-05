@@ -1,0 +1,70 @@
+//==============================================
+//   Heading
+//==============================================
+.student-records-component {
+  .panel-default {
+    > .panel-heading {
+      background: #fafdfe;
+    }
+    .fa-close {
+      font-size: 20px;
+      color: $blue-grey-600;
+      cursor: pointer;
+    }
+  }
+  .panel-title {
+    color: $blue-grey-600;
+    font-size: 18px;
+  }
+}
+
+//==============================================
+//   Student Info
+//==============================================
+.student-records-student-info {
+  display: flex;
+  padding: 10px 0;
+  font-size: 16px;
+  color: $grey-800;
+
+  .info-container {
+    flex: 1;
+  }
+  .info-label {
+    font-weight: bold;
+  }
+}
+
+//==============================================
+//   Records List
+//==============================================
+.student-records-headers {
+  font-weight: bold;
+  border-bottom: 1px solid $grey-200;
+  padding: 10px 15px;
+  font-size: 16px;
+}
+.student-records-list-item {
+  font-weight: normal;
+  padding: 10px 15px;
+  color: $grey-700;
+  font-size: 14px;
+  border-top: 1px solid $grey-200;
+
+  &:nth-of-type(odd) {
+    background: #fafdfe;
+  }
+}
+.student-records-component {
+  .record-date,
+  .record-attendance,
+  .record-time,
+  .record-time,
+  .record-homework,
+  .record-activity {
+    flex: 1;
+  }
+  .record-final-data {
+    flex: 4;
+  }
+}

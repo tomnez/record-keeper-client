@@ -4,6 +4,8 @@ import Scrolling from 'record-keeper-client/mixins/scrolling';
 const { inject: { service } } = Ember;
 
 export default Ember.Component.extend(Scrolling, {
+  classNames: ['student-listing-component'],
+
   scrollBuffer: 200,
 
   store: service(),
@@ -46,6 +48,8 @@ export default Ember.Component.extend(Scrolling, {
     viewStudentRecords(studentId) {
       let student = this.get('store').peekRecord('student', studentId);
       let studentRecords = student.get('records.content');
+
+      this.set('selectedStudent', student);
 
       if (studentRecords.get('length')) {
         this.set('studentRecords', studentRecords);

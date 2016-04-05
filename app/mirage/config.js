@@ -678,633 +678,633 @@ export function testConfig() {
     return {
       "data":[
         {
-          "id":"c58b6e21-93f9-44e3-9f1a-959d2e5dcd10",
+          "id":"0567fd3b-86d3-456d-9c37-d71e87c3bf58",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"1",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.030Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.031Z",
+            "time-out":"2016-03-25T00:55:48.031Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/c58b6e21-93f9-44e3-9f1a-959d2e5dcd10"
+            "self":"/records/0567fd3b-86d3-456d-9c37-d71e87c3bf58"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/c58b6e21-93f9-44e3-9f1a-959d2e5dcd10/relationships/student",
-                "related":"/records/c58b6e21-93f9-44e3-9f1a-959d2e5dcd10/student"
+                "self":"/records/0567fd3b-86d3-456d-9c37-d71e87c3bf58/relationships/student",
+                "related":"/records/0567fd3b-86d3-456d-9c37-d71e87c3bf58/student"
               }
             }
           }
         },
         {
-          "id":"2f972ed5-a51e-4b71-9779-84059786cf1e",
+          "id":"d73f379d-6c54-4c60-9d31-34bd7a288357",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"2",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.035Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.035Z",
+            "time-out":"2016-03-25T00:55:48.035Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/2f972ed5-a51e-4b71-9779-84059786cf1e"
+            "self":"/records/d73f379d-6c54-4c60-9d31-34bd7a288357"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/2f972ed5-a51e-4b71-9779-84059786cf1e/relationships/student",
-                "related":"/records/2f972ed5-a51e-4b71-9779-84059786cf1e/student"
+                "self":"/records/d73f379d-6c54-4c60-9d31-34bd7a288357/relationships/student",
+                "related":"/records/d73f379d-6c54-4c60-9d31-34bd7a288357/student"
               }
             }
           }
         },
         {
-          "id":"a30f8fd3-fd74-4349-8c5e-4f37b97aed1c",
+          "id":"acbb13b6-368a-4a9d-9081-2b9f7d05d432",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"3",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.037Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.037Z",
+            "time-out":"2016-03-25T00:55:48.037Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/a30f8fd3-fd74-4349-8c5e-4f37b97aed1c"
+            "self":"/records/acbb13b6-368a-4a9d-9081-2b9f7d05d432"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/a30f8fd3-fd74-4349-8c5e-4f37b97aed1c/relationships/student",
-                "related":"/records/a30f8fd3-fd74-4349-8c5e-4f37b97aed1c/student"
+                "self":"/records/acbb13b6-368a-4a9d-9081-2b9f7d05d432/relationships/student",
+                "related":"/records/acbb13b6-368a-4a9d-9081-2b9f7d05d432/student"
               }
             }
           }
         },
         {
-          "id":"ecfa52b9-f7d7-4f28-96e2-afc7c12d8de4",
+          "id":"abd1bebd-1f75-4fae-945a-3bf690ab7c62",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"4",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.039Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.039Z",
+            "time-out":"2016-03-25T00:55:48.039Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/ecfa52b9-f7d7-4f28-96e2-afc7c12d8de4"
+            "self":"/records/abd1bebd-1f75-4fae-945a-3bf690ab7c62"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/ecfa52b9-f7d7-4f28-96e2-afc7c12d8de4/relationships/student",
-                "related":"/records/ecfa52b9-f7d7-4f28-96e2-afc7c12d8de4/student"
+                "self":"/records/abd1bebd-1f75-4fae-945a-3bf690ab7c62/relationships/student",
+                "related":"/records/abd1bebd-1f75-4fae-945a-3bf690ab7c62/student"
               }
             }
           }
         },
         {
-          "id":"9d4bcddb-ecf6-42be-b7fe-18700485a794",
+          "id":"05039e41-b9ce-4661-bb3c-23fd88e3a915",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"5",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.041Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.041Z",
+            "time-out":"2016-03-25T00:55:48.041Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/9d4bcddb-ecf6-42be-b7fe-18700485a794"
+            "self":"/records/05039e41-b9ce-4661-bb3c-23fd88e3a915"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/9d4bcddb-ecf6-42be-b7fe-18700485a794/relationships/student",
-                "related":"/records/9d4bcddb-ecf6-42be-b7fe-18700485a794/student"
+                "self":"/records/05039e41-b9ce-4661-bb3c-23fd88e3a915/relationships/student",
+                "related":"/records/05039e41-b9ce-4661-bb3c-23fd88e3a915/student"
               }
             }
           }
         },
         {
-          "id":"3979d133-467c-427f-aee6-4d0c64f5be82",
+          "id":"3ddbb0af-88ee-4959-9579-791365aed441",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"6",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.042Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.042Z",
+            "time-out":"2016-03-25T00:55:48.042Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/3979d133-467c-427f-aee6-4d0c64f5be82"
+            "self":"/records/3ddbb0af-88ee-4959-9579-791365aed441"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/3979d133-467c-427f-aee6-4d0c64f5be82/relationships/student",
-                "related":"/records/3979d133-467c-427f-aee6-4d0c64f5be82/student"
+                "self":"/records/3ddbb0af-88ee-4959-9579-791365aed441/relationships/student",
+                "related":"/records/3ddbb0af-88ee-4959-9579-791365aed441/student"
               }
             }
           }
         },
         {
-          "id":"74d53b9a-9391-4d2b-86b7-6de404d64e76",
+          "id":"4f2db818-62df-432f-8280-2ca153f1bb88",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"7",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.044Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.044Z",
+            "time-out":"2016-03-25T00:55:48.044Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/74d53b9a-9391-4d2b-86b7-6de404d64e76"
+            "self":"/records/4f2db818-62df-432f-8280-2ca153f1bb88"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/74d53b9a-9391-4d2b-86b7-6de404d64e76/relationships/student",
-                "related":"/records/74d53b9a-9391-4d2b-86b7-6de404d64e76/student"
+                "self":"/records/4f2db818-62df-432f-8280-2ca153f1bb88/relationships/student",
+                "related":"/records/4f2db818-62df-432f-8280-2ca153f1bb88/student"
               }
             }
           }
         },
         {
-          "id":"fec1cf8c-252a-4dfd-a1bf-bfb8e774d984",
+          "id":"8abe47ec-f1f1-4254-9c27-5f8892c0861c",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"8",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.046Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.046Z",
+            "time-out":"2016-03-25T00:55:48.046Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/fec1cf8c-252a-4dfd-a1bf-bfb8e774d984"
+            "self":"/records/8abe47ec-f1f1-4254-9c27-5f8892c0861c"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/fec1cf8c-252a-4dfd-a1bf-bfb8e774d984/relationships/student",
-                "related":"/records/fec1cf8c-252a-4dfd-a1bf-bfb8e774d984/student"
+                "self":"/records/8abe47ec-f1f1-4254-9c27-5f8892c0861c/relationships/student",
+                "related":"/records/8abe47ec-f1f1-4254-9c27-5f8892c0861c/student"
               }
             }
           }
         },
         {
-          "id":"e256d50c-1978-4031-8ef0-8e82379faed5",
+          "id":"6e20029c-90ee-42bc-8d30-363e0d7f8548",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"9",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.047Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.047Z",
+            "time-out":"2016-03-25T00:55:48.047Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/e256d50c-1978-4031-8ef0-8e82379faed5"
+            "self":"/records/6e20029c-90ee-42bc-8d30-363e0d7f8548"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/e256d50c-1978-4031-8ef0-8e82379faed5/relationships/student",
-                "related":"/records/e256d50c-1978-4031-8ef0-8e82379faed5/student"
+                "self":"/records/6e20029c-90ee-42bc-8d30-363e0d7f8548/relationships/student",
+                "related":"/records/6e20029c-90ee-42bc-8d30-363e0d7f8548/student"
               }
             }
           }
         },
         {
-          "id":"76b415ae-ef3b-4775-be15-32d28d8d60ee",
+          "id":"cf6e4727-b417-452b-8171-c769d573b25a",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"10",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.049Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.049Z",
+            "time-out":"2016-03-25T00:55:48.049Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/76b415ae-ef3b-4775-be15-32d28d8d60ee"
+            "self":"/records/cf6e4727-b417-452b-8171-c769d573b25a"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/76b415ae-ef3b-4775-be15-32d28d8d60ee/relationships/student",
-                "related":"/records/76b415ae-ef3b-4775-be15-32d28d8d60ee/student"
+                "self":"/records/cf6e4727-b417-452b-8171-c769d573b25a/relationships/student",
+                "related":"/records/cf6e4727-b417-452b-8171-c769d573b25a/student"
               }
             }
           }
         },
         {
-          "id":"ad07912e-01c8-4430-bfad-3b41392840de",
+          "id":"3c909629-5a96-46cb-94f6-951dc160e46f",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"11",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.051Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.051Z",
+            "time-out":"2016-03-25T00:55:48.051Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/ad07912e-01c8-4430-bfad-3b41392840de"
+            "self":"/records/3c909629-5a96-46cb-94f6-951dc160e46f"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/ad07912e-01c8-4430-bfad-3b41392840de/relationships/student",
-                "related":"/records/ad07912e-01c8-4430-bfad-3b41392840de/student"
+                "self":"/records/3c909629-5a96-46cb-94f6-951dc160e46f/relationships/student",
+                "related":"/records/3c909629-5a96-46cb-94f6-951dc160e46f/student"
               }
             }
           }
         },
         {
-          "id":"6dc55a0c-90c0-460c-b91e-ed87e8fce391",
+          "id":"6bd91a1d-bcfc-4d4c-86a3-ef35b3986291",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"12",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.052Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.052Z",
+            "time-out":"2016-03-25T00:55:48.052Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/6dc55a0c-90c0-460c-b91e-ed87e8fce391"
+            "self":"/records/6bd91a1d-bcfc-4d4c-86a3-ef35b3986291"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/6dc55a0c-90c0-460c-b91e-ed87e8fce391/relationships/student",
-                "related":"/records/6dc55a0c-90c0-460c-b91e-ed87e8fce391/student"
+                "self":"/records/6bd91a1d-bcfc-4d4c-86a3-ef35b3986291/relationships/student",
+                "related":"/records/6bd91a1d-bcfc-4d4c-86a3-ef35b3986291/student"
               }
             }
           }
         },
         {
-          "id":"b7288f27-2c3c-4628-af72-3b7b37f13b30",
+          "id":"ca430266-5572-4453-9c50-e0a87a8a65ac",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"13",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.054Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.054Z",
+            "time-out":"2016-03-25T00:55:48.054Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/b7288f27-2c3c-4628-af72-3b7b37f13b30"
+            "self":"/records/ca430266-5572-4453-9c50-e0a87a8a65ac"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/b7288f27-2c3c-4628-af72-3b7b37f13b30/relationships/student",
-                "related":"/records/b7288f27-2c3c-4628-af72-3b7b37f13b30/student"
+                "self":"/records/ca430266-5572-4453-9c50-e0a87a8a65ac/relationships/student",
+                "related":"/records/ca430266-5572-4453-9c50-e0a87a8a65ac/student"
               }
             }
           }
         },
         {
-          "id":"3e473b1c-2137-4480-af5d-14a0d1e49b78",
+          "id":"da270469-eb3e-4bf4-a146-cb86303a4474",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"14",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.055Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.056Z",
+            "time-out":"2016-03-25T00:55:48.056Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/3e473b1c-2137-4480-af5d-14a0d1e49b78"
+            "self":"/records/da270469-eb3e-4bf4-a146-cb86303a4474"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/3e473b1c-2137-4480-af5d-14a0d1e49b78/relationships/student",
-                "related":"/records/3e473b1c-2137-4480-af5d-14a0d1e49b78/student"
+                "self":"/records/da270469-eb3e-4bf4-a146-cb86303a4474/relationships/student",
+                "related":"/records/da270469-eb3e-4bf4-a146-cb86303a4474/student"
               }
             }
           }
         },
         {
-          "id":"428f7b97-35fa-40fc-afb5-42b5df0809c6",
+          "id":"6ab1c986-e595-463c-8b9b-25b585554495",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"15",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.057Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.057Z",
+            "time-out":"2016-03-25T00:55:48.057Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/428f7b97-35fa-40fc-afb5-42b5df0809c6"
+            "self":"/records/6ab1c986-e595-463c-8b9b-25b585554495"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/428f7b97-35fa-40fc-afb5-42b5df0809c6/relationships/student",
-                "related":"/records/428f7b97-35fa-40fc-afb5-42b5df0809c6/student"
+                "self":"/records/6ab1c986-e595-463c-8b9b-25b585554495/relationships/student",
+                "related":"/records/6ab1c986-e595-463c-8b9b-25b585554495/student"
               }
             }
           }
         },
         {
-          "id":"2fb6982c-2524-4f9f-91cb-c8488996a15d",
+          "id":"e8ef3ed0-618c-49b9-9441-e074300debd9",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"16",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.059Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.059Z",
+            "time-out":"2016-03-25T00:55:48.059Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/2fb6982c-2524-4f9f-91cb-c8488996a15d"
+            "self":"/records/e8ef3ed0-618c-49b9-9441-e074300debd9"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/2fb6982c-2524-4f9f-91cb-c8488996a15d/relationships/student",
-                "related":"/records/2fb6982c-2524-4f9f-91cb-c8488996a15d/student"
+                "self":"/records/e8ef3ed0-618c-49b9-9441-e074300debd9/relationships/student",
+                "related":"/records/e8ef3ed0-618c-49b9-9441-e074300debd9/student"
               }
             }
           }
         },
         {
-          "id":"5a36cc70-efab-43ce-89ba-d386e44fc51f",
+          "id":"95f115a2-9356-476c-8d6c-dcc0575ffc66",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"17",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.060Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.060Z",
+            "time-out":"2016-03-25T00:55:48.060Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/5a36cc70-efab-43ce-89ba-d386e44fc51f"
+            "self":"/records/95f115a2-9356-476c-8d6c-dcc0575ffc66"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/5a36cc70-efab-43ce-89ba-d386e44fc51f/relationships/student",
-                "related":"/records/5a36cc70-efab-43ce-89ba-d386e44fc51f/student"
+                "self":"/records/95f115a2-9356-476c-8d6c-dcc0575ffc66/relationships/student",
+                "related":"/records/95f115a2-9356-476c-8d6c-dcc0575ffc66/student"
               }
             }
           }
         },
         {
-          "id":"4e93747d-205b-436a-93d8-5ba5e1108047",
+          "id":"37e9b96e-d411-4c2a-b96a-54ee3e2a9439",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"18",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.062Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.062Z",
+            "time-out":"2016-03-25T00:55:48.062Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/4e93747d-205b-436a-93d8-5ba5e1108047"
+            "self":"/records/37e9b96e-d411-4c2a-b96a-54ee3e2a9439"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/4e93747d-205b-436a-93d8-5ba5e1108047/relationships/student",
-                "related":"/records/4e93747d-205b-436a-93d8-5ba5e1108047/student"
+                "self":"/records/37e9b96e-d411-4c2a-b96a-54ee3e2a9439/relationships/student",
+                "related":"/records/37e9b96e-d411-4c2a-b96a-54ee3e2a9439/student"
               }
             }
           }
         },
         {
-          "id":"76a519c3-ce77-4a27-8d40-6acef318d964",
+          "id":"34a5fd7b-264e-40e6-b03c-74ca7e7979bc",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"19",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.064Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.064Z",
+            "time-out":"2016-03-25T00:55:48.064Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/76a519c3-ce77-4a27-8d40-6acef318d964"
+            "self":"/records/34a5fd7b-264e-40e6-b03c-74ca7e7979bc"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/76a519c3-ce77-4a27-8d40-6acef318d964/relationships/student",
-                "related":"/records/76a519c3-ce77-4a27-8d40-6acef318d964/student"
+                "self":"/records/34a5fd7b-264e-40e6-b03c-74ca7e7979bc/relationships/student",
+                "related":"/records/34a5fd7b-264e-40e6-b03c-74ca7e7979bc/student"
               }
             }
           }
         },
         {
-          "id":"040870d1-fb0e-414a-bdbe-4d959cb1fdbd",
+          "id":"3aec4f0f-889d-435a-9fbe-fd0a3af50294",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"20",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.065Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.065Z",
+            "time-out":"2016-03-25T00:55:48.065Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/040870d1-fb0e-414a-bdbe-4d959cb1fdbd"
+            "self":"/records/3aec4f0f-889d-435a-9fbe-fd0a3af50294"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/040870d1-fb0e-414a-bdbe-4d959cb1fdbd/relationships/student",
-                "related":"/records/040870d1-fb0e-414a-bdbe-4d959cb1fdbd/student"
+                "self":"/records/3aec4f0f-889d-435a-9fbe-fd0a3af50294/relationships/student",
+                "related":"/records/3aec4f0f-889d-435a-9fbe-fd0a3af50294/student"
               }
             }
           }
         },
         {
-          "id":"8e75a4b8-b0bd-4449-8dea-add16ad63071",
+          "id":"626bbdc2-09bc-42ec-a877-57a49dc364e0",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"21",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.067Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.067Z",
+            "time-out":"2016-03-25T00:55:48.067Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/8e75a4b8-b0bd-4449-8dea-add16ad63071"
+            "self":"/records/626bbdc2-09bc-42ec-a877-57a49dc364e0"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/8e75a4b8-b0bd-4449-8dea-add16ad63071/relationships/student",
-                "related":"/records/8e75a4b8-b0bd-4449-8dea-add16ad63071/student"
+                "self":"/records/626bbdc2-09bc-42ec-a877-57a49dc364e0/relationships/student",
+                "related":"/records/626bbdc2-09bc-42ec-a877-57a49dc364e0/student"
               }
             }
           }
         },
         {
-          "id":"cabbed9a-33dd-4de6-aadd-82a0eb2ef8f5",
+          "id":"ef3746fe-78fd-4dc1-9bbf-d6fdde37b0f8",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"22",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.068Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.069Z",
+            "time-out":"2016-03-25T00:55:48.069Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/cabbed9a-33dd-4de6-aadd-82a0eb2ef8f5"
+            "self":"/records/ef3746fe-78fd-4dc1-9bbf-d6fdde37b0f8"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/cabbed9a-33dd-4de6-aadd-82a0eb2ef8f5/relationships/student",
-                "related":"/records/cabbed9a-33dd-4de6-aadd-82a0eb2ef8f5/student"
+                "self":"/records/ef3746fe-78fd-4dc1-9bbf-d6fdde37b0f8/relationships/student",
+                "related":"/records/ef3746fe-78fd-4dc1-9bbf-d6fdde37b0f8/student"
               }
             }
           }
         },
         {
-          "id":"f701f160-0a24-42b1-a175-84a7316c0d17",
+          "id":"f15d6dcd-349e-4c5f-93c2-373ae5c5528e",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"23",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.070Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.070Z",
+            "time-out":"2016-03-25T00:55:48.070Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/f701f160-0a24-42b1-a175-84a7316c0d17"
+            "self":"/records/f15d6dcd-349e-4c5f-93c2-373ae5c5528e"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/f701f160-0a24-42b1-a175-84a7316c0d17/relationships/student",
-                "related":"/records/f701f160-0a24-42b1-a175-84a7316c0d17/student"
+                "self":"/records/f15d6dcd-349e-4c5f-93c2-373ae5c5528e/relationships/student",
+                "related":"/records/f15d6dcd-349e-4c5f-93c2-373ae5c5528e/student"
               }
             }
           }
         },
         {
-          "id":"b55e32ef-93f3-4d3b-96e2-0b28fe31152b",
+          "id":"5c6a683f-e61e-48bb-a74c-a7ce42b0627a",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"24",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.072Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.072Z",
+            "time-out":"2016-03-25T00:55:48.072Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/b55e32ef-93f3-4d3b-96e2-0b28fe31152b"
+            "self":"/records/5c6a683f-e61e-48bb-a74c-a7ce42b0627a"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/b55e32ef-93f3-4d3b-96e2-0b28fe31152b/relationships/student",
-                "related":"/records/b55e32ef-93f3-4d3b-96e2-0b28fe31152b/student"
+                "self":"/records/5c6a683f-e61e-48bb-a74c-a7ce42b0627a/relationships/student",
+                "related":"/records/5c6a683f-e61e-48bb-a74c-a7ce42b0627a/student"
               }
             }
           }
         },
         {
-          "id":"f4ab3c1d-cd37-4b98-a431-7d5f0c47824f",
+          "id":"19e4f80c-d46c-499b-afd3-e19de0da2216",
           "type":"record",
           "attributes":{
             "student-id":"0265c7e6-784a-437b-bbd4-307e74561c84",
-            "date":null,
-            "attendance":null,
-            "time-in":null,
-            "time-out":null,
-            "hw":"25",
-            "activity":null,
-            "final-data":null
+            "date":"2016-03-25T00:55:48.074Z",
+            "attendance":"I-5",
+            "time-in":"2016-03-25T00:55:48.075Z",
+            "time-out":"2016-03-25T00:55:48.075Z",
+            "hw":"N/A",
+            "activity":"Drill",
+            "final-data":"structured conversation-/r/-39% (5/13)"
           },
           "links":{
-            "self":"/records/f4ab3c1d-cd37-4b98-a431-7d5f0c47824f"
+            "self":"/records/19e4f80c-d46c-499b-afd3-e19de0da2216"
           },
           "relationships":{
             "student":{
               "links":{
-                "self":"/records/f4ab3c1d-cd37-4b98-a431-7d5f0c47824f/relationships/student",
-                "related":"/records/f4ab3c1d-cd37-4b98-a431-7d5f0c47824f/student"
+                "self":"/records/19e4f80c-d46c-499b-afd3-e19de0da2216/relationships/student",
+                "related":"/records/19e4f80c-d46c-499b-afd3-e19de0da2216/student"
               }
             }
           }
         }
       ],
       "meta":{
-        "total_pages":3,
+        "total_pages":4,
         "page":1,
         "per_page":25
       }
